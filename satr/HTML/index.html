@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,td{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body dir="rtl">
+    <h1>دورة HTML</h1>
+    <img src="\image\cars1.jpg"height ="150" alt="صورة">
+    <h2>وصف الدورة</h2>
+    <p> هذا وصف دورة <strong>دورةHTML</strong> هذا وصف دورة<i>HTML</i></p>
+    <p><b>مواعيد المحاضرات يوميا: </b><br>
+    من الساعة
+    8:00<sub>am</sub>
+    وحتى الساعة
+    11:00<sub>am</sub></p>
+
+        <p><b>المستويات لهذه الدورة:</b><br>
+            1<sup>st</sup>level:اساسيات HTML<br>
+            2<sup>nd</sup>level: مفاهيم متقدمة
+        </p><hr>
+
+        <h2>اهداف هذه الدورة</h2>
+        <ol type="a">
+            <li>التعرف على مفهومhtml</li>
+            <li>تعلم كل tag والغرض من استخدامه</li>
+            <li>طرق اضافة النصوص والفيديوهات وغيرها من المحتويات المعتادة</li>
+            
+        </ol>
+
+        <h2>متطلبات هذه الدورة</h2>
+        <ul type="circle">
+            <li>متصفح قوقل كروم</li>
+            <li>محرر نصوص</li>
+        </ul>
+
+        <p>للمرجع اضغط
+        <a href = "https://www.google.com/search?gs_ssp=eJzj4tTP1TcwMU02T1JgNGB0YPBiS8_PT89JBQBASQXT&q=google&oq=google&aqs=chrome.1.69i57j46i131i199i433i465i512j69i60l3j5j69i65l2.3217j0j7&sourceid=chrome&ie=UTF-8">هنا</a>    
+        </p>
+
+    <table>
+        <caption>جدول المحاضرات</caption>
+        <tr>
+            <th>اليوم</th>
+            <th>المكان</th>
+        </tr>
+        <tr>
+            <td>الاحد الاثنين</td> 
+            <td>Class A</td>
+        </tr>
+        <tr>
+            <td> الثلاثاء الاربعاء</td> 
+            <td>Class B</td></tr>
+        <tr>
+            <td colspan="2">الخميس
+            عن بعد</td>
+        </tr>
+    
+    </table>
+    <hr>
+    <h2>نموذج الانضمام للدورة</h2>
+    <form>
+        <label for="name">اسم المستخدم</label>
+        <input type="text" id="name">
+        <p>الجنس</p>
+    <input type="radio" id="male" name = "gender">
+    <label for = "male">ذكر</label>
+
+
+    <input type="radio" id= "female" name="gender">
+    <label for="female">انثى</label>
+
+
+    <p>من اين سمعت عن HTML?</p>
+    <input type="checkbox" id="friend" name="friend">
+    <label for="friend">صديق</label>
+
+
+    <input type="checkbox" id="books" name="books">
+    <label for="books">كتب</label>
+
+    
+    <input type="checkbox" id="sm" name="sm">
+    <label for="sm">مواقع التواصل الاجتماعي</label><br>
+    <label for="city">اختر مدينتك</label>
+    
+    <select id="city">
+        <option value="R">الرياض</option>
+        <option value="J">جدة</option>
+        <option value="D">الدمام</option>
+    </select><br><br>
+
+    <input type="submit" value="انضمام">
+    </form>
+
+
+</body>
+
+</html>
